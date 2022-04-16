@@ -1,0 +1,58 @@
+
+# vm results
+# name of file :  
+{
+    "config-1": {
+        "resources":{
+            "cpu":"2",
+            "ram":"4",...
+        },
+        "test-result-vm":{
+           "cpu-result":[
+                {"1":{
+                   "cpu-percent":"",...
+               }... "1000" or till we saturate the CPU & RAM to max util}
+            ],
+            "network-result":
+            {
+                "3k":[
+                    "1sec":{
+                        "throughput":"300MB",
+                        "bandwidth":"310MB"
+                    }... 10 seconds
+                ],
+                "100k":[
+                    "1sec":{
+                        "throughput":"300MB",
+                        "bandwidth":"310MB"
+                    }... 10 seconds
+                ],
+                "1000k":[
+                    "1sec":{
+                        "throughput":"300MB",
+                        "bandwidth":"310MB"
+                    }... 10 seconds
+                ]
+            },
+            "disk-result": {
+                
+            }
+        }
+    }
+}
+
+# container results
+# name of file :  
+{
+    "config-1": {
+        "resources":{
+            "cpu":"2",
+            "ram":"4",...
+        },
+        "test-result-conatiner":{
+            "1":{
+                "cpu-percent":"",...
+            },...
+        }
+    }
+}
